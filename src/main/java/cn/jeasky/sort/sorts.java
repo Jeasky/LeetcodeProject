@@ -62,4 +62,18 @@ public class sorts {
     }
 
     //TODO 待补充快速排序
+    /**
+    * @Description: 快速排序
+    * @Param: 入参为乱序数组
+    * @return: void
+    * @Date: 2020/11/4
+    */
+    @Test
+    public void quickSort(){
+        int[] b = a;
+        int size = a.length;
+        System.out.println("排序前的数组");
+        for(int l : b)
+            System.out.print(l + " ");
+    }
 }
